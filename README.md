@@ -4,6 +4,8 @@ To use, you must first export and include relative to the current working direct
 
 Note: Requires Python 3.x, numpy, nltk stopwords, gemsim word2vec, sklearn, textblob and matplotlib
 
+Prediction is based on naive bayes supervised machine learning classification
+
 Sample run:
 ```
 1. Run message importer
@@ -21,9 +23,9 @@ Remove stop words (stop words are common words with little meaning and removing 
 N
 building vocabulary...
 complete
-building test set Kathleen Matthews
+building test set Kathleen
 complete
-building test set Tyler Matthews
+building test set Tyler
 complete
 associating phrases to vocabulary...
 complete
