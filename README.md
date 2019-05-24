@@ -1,10 +1,10 @@
 # conversation-analyzer
 
-To use, you must first export and include relative to the current working directory of the program, your facebook message conversation.
+To use, you must first export and include relative to the current working directory of the program, your facebook message conversation. At the program start, import file and provide names of users you wish to analyze.
 
 Note: Requires Python 3.x, numpy, nltk stopwords, gemsim word2vec, sklearn, textblob and matplotlib
 
-Prediction is based on naive bayes supervised machine learning classification
+Prediction is based on naive bayes supervised machine learning classification. A percentage of the given test data may be chosen as a test set to run against the classifier.
 
 Sample run:
 ```
